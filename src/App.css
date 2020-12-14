@@ -1,5 +1,14 @@
 .App {
+
+}
+
+.menu {
+  position: fixed;
   text-align: center;
+  background-color: green;
+  color: white;
+  padding-top: 2%;
+  width: 100%;
 }
 
 .App-logo {
