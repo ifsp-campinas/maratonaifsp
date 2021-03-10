@@ -26,10 +26,9 @@ class App extends Component {
     return(
       <div className= "App">
         <StyledMenu>
-            Instituto Federal de São Paulo
-            | Câmpus Campinas
+            Instituto Federal de São Paulo | Câmpus Campinas
         </StyledMenu>
-        <Menu></Menu>
+        <Menu />
         <Body />
       </div>
     );
