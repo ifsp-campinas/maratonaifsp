@@ -1,14 +1,36 @@
 import React from 'react';
+import './menu.css';
+import styled from 'styled-components';
+
+const StyledNav = styled.nav`
+    background-color: green;
+    padding: 0;
+    margin: 0;
+	border: 1px solid black;
+	display: block;
+	heigh: 1rem;
+`;
 
 const menu = () =>{
 	return(
-		<div>
-			<h2>Instituto Federal de São Paulo</h2>
-			<h1>Câmpus Campinas</h1>
-			<a href="https://portal.cmp.ifsp.edu.br/">Section 1 </a>
-			<a href="https://portal.cmp.ifsp.edu.br/">Section 2 </a>
-			<a href="https://portal.cmp.ifsp.edu.br/">Section 3 </a>
-		</div>
+		<StyledNav>
+			<nav className = "menu">
+				<ul>
+					<li>
+						<a href="#">Sobre</a>
+					</li>
+					<li>
+						<a href="#">Resultados</a>
+					</li>
+					<li>
+						<a href="#">Nossos Canais</a>
+					</li>
+					<li>
+						<a href="#">Participe</a>
+					</li>
+				</ul>
+			</nav>
+		</StyledNav>
 		);
 }
 
