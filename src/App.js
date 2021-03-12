@@ -13,10 +13,9 @@ const StyledMenu = styled.menu`
     display: block;
     font-size: 30px;
     font-weight: bold;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
     color: white;
     height: 3rem;
+    font-family: 'Playfair Display', serif
 `;
 
 class App extends Component {

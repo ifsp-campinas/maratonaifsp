@@ -1,5 +1,6 @@
 import React from 'react';
 import './menu.css';
+import './body.js'
 import styled from 'styled-components';
 
 const StyledNav = styled.nav`
@@ -17,16 +18,16 @@ const menu = () =>{
 			<nav className = "menu">
 				<ul>
 					<li>
-						<a href="#">Sobre</a>
+						<a href="a">Sobre</a>
 					</li>
 					<li>
-						<a href="#">Resultados</a>
+						<a href="a">Resultados</a>
 					</li>
 					<li>
-						<a href="#">Nossos Canais</a>
+						<a href="a">Nossos Canais</a>
 					</li>
 					<li>
-						<a href="#">Participe</a>
+						<a href="a">Participe</a>
 					</li>
 				</ul>
 			</nav>
