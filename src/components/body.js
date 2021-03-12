@@ -122,7 +122,6 @@ const body = () =>{
                                                 a Maratona BHC, que reuniu alunos de 3 Campi distintos do IFSP, sendo eles Barretos, Hortolândia
                                                 e Campinas. A maratona contou com a participação de 18 equipes diferentes, sendo a metade composta
                                                 por alunos de Campinas.
-                                                
                                         </li>
                                 </StyledUl>          
                         </StyledColumn>
@@ -135,9 +134,10 @@ const body = () =>{
                                         <li>
                                                 &nbsp;
                                                 No pódio final da Maratona de Programação BHC, tivemos como 2º colocada, uma equipe de Campinas,
-                                                onde 2 dos 3 faziam parte do nosso treinamento.
+                                                onde 2 dos 3 faziam parte do nosso treinamento, além de outra equipe do Câmpus Campinas em 5º lugar.
                                                 
                                         </li>
+                                        <img src="./classificacao.JPG" alt="Classificação BHC"/>
                                 </StyledUl2>
                         </StyledColumn>
                 </StyledBody2>
