@@ -18,16 +18,19 @@ const menu = () =>{
 			<nav className = "menu">
 				<ul>
 					<li>
-						<a href="a">Sobre</a>
+						<a href="#sobre">Sobre</a>
 					</li>
 					<li>
-						<a href="a">Resultados</a>
+						<a href="#resultados">Resultados</a>
 					</li>
 					<li>
-						<a href="a">Nossos Canais</a>
+						<a href="#canais">Nossos Canais</a>
 					</li>
 					<li>
-						<a href="a">Participe</a>
+						<a href="#participe">Participe</a>
+					</li>
+					<li>
+						<a href="#colaboradores">Colaboradores</a>
 					</li>
 				</ul>
 			</nav>
